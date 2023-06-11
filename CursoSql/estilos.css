@@ -1,0 +1,70 @@
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F0F8FF; /* Light Blue */
+}
+
+form {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FCE4EC; /* Pink */
+  box-shadow: 0 -3em 3em rgba(178, 91, 142, 0.678),
+    0 0 0 2px #FFF,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.786);
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  width: 90%;
+  max-width: 800px;
+  padding: 22%;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: italic;
+  color: #FF1493; /* Deep Pink */
+  margin-bottom: 2rem;
+}
+
+label {
+  font-weight: 530;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  color: #0000FF; /* Blue */
+  display: block;
+}
+
+input.form-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #008080; /* Teal */
+  margin-bottom: 1rem;
+}
+
+span {
+  font-style: italic;
+  margin-left: 5px;
+  color: #FF00FF; /* Magenta */
+}
+
+.form-btn {
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #FFF;
+  border-radius: 1px;
+  background-color: #FF4500; /* Orange Red */
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px,
+    0.3em 0.3em 1em;
+  margin-top: 2rem;
+}
+
+.form-btn:hover {
+  background-color: #FF6347; /* Tomato */
+  opacity: 0.8;
+}
